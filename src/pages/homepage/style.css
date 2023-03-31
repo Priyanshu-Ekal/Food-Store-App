@@ -1,0 +1,70 @@
+.app-title{
+    color: white;
+    font-size: 40px;
+}
+.Homepage{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    height: 100%;
+    
+}
+.items{
+    padding: 30px;
+    background-color: white;
+    padding-bottom: 90px;
+}
+.loading,.no-recipes, .no-items{
+    justify-content: center;
+    color: black;
+    padding: 20px;
+}
+.navbar{
+    padding: 5px 50px;
+    margin: 0px;
+    background-color: #191b1f;
+    columns: 3;
+    position: sticky;
+    top: 0;
+    width: 88vw;
+}
+.favourites-title{
+    color: black;
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+}
+.favourites-wrapper{
+    display: inline-flex;
+    overflow-x: scroll;
+    max-width: 99%;
+    margin: 0px;
+    align-items: center;
+    border: 5px solid transparent;
+}
+.search-fav{
+    float: right;
+    clear: both;
+    padding-right: 100px;
+}
+.search-fav input{
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.footer{
+    columns: 2;
+    position:fixed;
+    bottom: 0;
+    background-color: #191b1f;
+    width: 100vw;
+    color: white;
+    padding: 5px 5px 10px 5px;
+}
+.footer-list{
+    float: right;
+    clear: both;
+    columns: 4;
+    text-decoration: none;
+    list-style-type: none;
+}

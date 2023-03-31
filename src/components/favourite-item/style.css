@@ -1,0 +1,39 @@
+.favouriteItemName{
+    color: rgb(73, 11, 11);
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 181, 114);
+    border: 3px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    max-width: 330px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+}
+.favouriteItemName:hover{
+    background-color: white;
+}
+.favouriteRecipeImage{
+    margin: 10px 0px;
+    width: auto;
+}
+p{
+    font-size: 25px;
+    justify-content: center;
+    margin: 5px;
+}
+.favouriteBtn{
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgba(101, 101, 236, 0.758);
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+.favouriteBtn:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}

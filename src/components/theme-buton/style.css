@@ -1,0 +1,16 @@
+.theme-button-wrapper{
+    float: right;
+    position:sticky;
+    top: 0;
+    right: 0;
+}
+.themeButton{
+    font-size: 50px;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: whitesmoke;
+}
+.themeButton:hover{
+    background-color: rgb(253, 182, 48);
+}
+

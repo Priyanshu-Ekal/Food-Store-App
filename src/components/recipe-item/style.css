@@ -1,0 +1,43 @@
+.itemName{
+    color: rgb(73, 11, 11);
+    display:inline-flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 181, 114);
+    border: 3px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    /* min-width: 300px; */
+    max-width: 330px;
+    /* min-height: 300px; */
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+}
+.itemName:hover{
+    background-color: var(--hover-col) !important;
+}
+.recipeImage{
+    margin: 10px 0px;
+    width: auto;
+}
+p{
+    font-size: 20px;
+    justify-content: center;
+    margin: 5px;
+}
+.favouriteBtn{
+    margin: 10px 5px;
+    padding: 5px 10px;
+    background-color: rgba(101, 101, 236, 0.758);
+    border-radius: 50% 50%;
+    border: 0px solid transparent;
+}
+.favouriteBtn i{
+    font-size: 30px;
+}
+.favouriteBtn:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
